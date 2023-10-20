@@ -1,0 +1,58 @@
+body{
+   background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm422-076.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c84e74a29cd699a10e8fe5d9cac8ed92");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#container{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+#container h3{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+} 
+#title{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+#content{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    border:3px solid grey;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: white;
+    opacity: 0.7;
+}
+input{
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+textarea{
+    height: 300px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 3px solid black;
+}
